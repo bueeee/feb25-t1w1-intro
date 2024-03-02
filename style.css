@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+img {
+    height: 10vw;
+    width:10vw
+    
+}
+
+
+p{
+    font-size: 20px;
+    max-height: 30px;
+    overflow-y: hidden;
+}
+em > strong p{
+    font-size: 200px;
+}
+
+}
+
+
+
+li {
+    background-color: lightseagreen;
+    height: 100px;
+    width: 50px;
+}
+
+em >strong >p{
+    font-size: 5px;
+}
+
+h3 {
+    color: red;
+    background-color: hotpink;
+}
+/*nth-child
+2nd-child
+1st-child
+n is just a place holder for a number
+*/
+
+
+li:nth-child(3n+1){
+    background-color: indigo;
+}
+li:nth-child(even){
+    background-color: lightcoral;
+    
+}/*
+every 2nd lists marker: 
+li:nth child(even){
+    background-color: lightgrey;
+} */
+li::marker{
+    color: lightgray;
+}
+ul:nth-child(2n){
+    list-style-type: none;
+    color: lightpink;
+}
+
+#bannas {}
+
+
+h1 {
+    color: blue;
+    background-color: green;
+}
+    
+h1 {
+    color:rgb(48, 132, 228);
+}
